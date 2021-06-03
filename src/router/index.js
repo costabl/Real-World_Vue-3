@@ -24,7 +24,9 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes: [
+    { path: '*', component: NotFoundComponent }
+  ]
 })
 
 export default router
