@@ -19,7 +19,10 @@ window.AcquiaLift = {
   liftAssetsURL: "https://builder.lift.acquia.com",
   liftDecisionAPIURL: "https://us-east-1-demo-decisionapi.lift.acquia.com",
   authEndpoint: "https://us-east-1-demo-oauth2.lift.acquia.com/authorize",
+  bootstrapMode: "auto",
   contentReplacementMode: "trusted",
+  cdfVersion: "2",
+  
 
   /*
   ** SITE ID | MANDATORY | Should be different for each site and environment in the same account
