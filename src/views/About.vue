@@ -2,6 +2,8 @@
   <div class="about">
     <p>Bruno Costa - My first Vue application. A site for events to better the world.</p>
     <div id="personalization_slot">Insert your Personalization here!</div>
+    <div id="personalization_slot2">Insert your 2nd Personalization here!</div>
+    <div id="personalization_slot3">Insert your 3rd Personalization here!</div>
   </div>
 </template>
 
@@ -22,7 +24,6 @@ window.AcquiaLift = {
   bootstrapMode: "auto",
   contentReplacementMode: "trusted",
   cdfVersion: "2",
-  
 
   /*
   ** SITE ID | MANDATORY | Should be different for each site and environment in the same account
