@@ -1,6 +1,7 @@
 <template>
   <div class="about">
     <p>Bruno Costa - My first Vue application. A site for events to better the world.</p>
+    <div id="personalization_slot">Insert your Personalization here!</div>
   </div>
 </template>
 
@@ -48,7 +49,16 @@ window.AcquiaLift = {
     'person_udf4':"Custom Value"
   }
 };
-</script>
 
-<!-- LIFT JS script | MANDATORY -->
-<script type="text/javascript" src="https://builder.lift.acquia.com/lift.js"></script>
+export default {
+  mounted() {
+    const plugin = document.createElement("script");
+    plugin.setAttribute(
+      "src",
+      "https://builder.lift.acquia.com/lift.js"
+    );
+    plugin.async = true;
+    document.head.appendChild(plugin);
+  }
+};
+</script>
