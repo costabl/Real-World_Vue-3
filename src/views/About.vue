@@ -27,6 +27,7 @@ window.AcquiaLift = {
   bootstrapMode: 'auto',
   contentReplacementMode: 'trusted',
   cdfVersion: '2',
+  context_language: 'en',
 
   /*
    ** SITE ID | MANDATORY | Should be different for each site and environment in the same account
@@ -37,7 +38,7 @@ window.AcquiaLift = {
 
   /** PAGE-SPECIFIC PROPERTIES | OPTIONAL | Content values can be different from page to page **/
   profile: {
-    author: 'Acquia',
+    author: 'Bruno Costa',
     engagement_score: '1',
     page_type: 'content page',
     post_id: '123',
@@ -45,7 +46,7 @@ window.AcquiaLift = {
     content_title: 'Homepage',
     content_type: 'page',
     content_section: 'Home',
-    content_keywords: 'LiftU',
+    content_keywords: 'Headless',
     persona: 'Student',
 
     /* CUSTOM COLUMN META DATA | OPTIONAL | Content values can be different from page to page
@@ -53,7 +54,7 @@ window.AcquiaLift = {
      ** Admin > Manage Configuration Data > Custom Column Meta Data.
      ** Will always be the format below of {table}_udf{accessor_number} -->
      **/
-    person_udf4: 'Custom Value'
+    //person_udf4: 'Custom Value'
   }
 }
 
