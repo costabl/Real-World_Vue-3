@@ -21,9 +21,9 @@ window.AcquiaLift = {
    ** The following values are examples. Update all variables for your own installation of Acquia Lift
    */
   account_id: 'HEADLESSBC',
-  liftAssetsURL: 'https://lift3assets.lift.acquia.com/stable',
+  liftAssetsURL: 'https://builder-demo.lift.acquia.com',
   liftDecisionAPIURL: 'https://us-east-1-demo-decisionapi.lift.acquia.com',
-  authEndpoint: 'https://us-east-1-demo-oauth2.lift.acquia.com',
+  authEndpoint: 'https://us-east-1-demo-oauth2.lift.acquia.com/authorize',
   bootstrapMode: 'auto',
   contentReplacementMode: 'trusted',
   cdfVersion: '2',
