@@ -61,7 +61,7 @@ window.AcquiaLift = {
 export default {
   mounted() {
     const plugin = document.createElement('script')
-    plugin.setAttribute('src', 'https://builder.lift.acquia.com/lift.js')
+    plugin.setAttribute('src', 'https://builder-demo.lift.acquia.com/lift.js')
     plugin.async = true
     document.head.appendChild(plugin)
   }
