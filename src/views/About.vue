@@ -47,7 +47,7 @@ window.AcquiaLift = {
     content_type: 'page',
     content_section: 'Home',
     content_keywords: 'Headless',
-    persona: 'Student',
+    persona: 'Student'
 
     /* CUSTOM COLUMN META DATA | OPTIONAL | Content values can be different from page to page
      ** The itemprops need to be created from Lift Profile Manager
