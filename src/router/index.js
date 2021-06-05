@@ -6,8 +6,8 @@ import About from '../views/About.vue'
 const routes = [
   {
     path: '/',
-    name: 'EventList',
-    component: EventList
+    name: 'About',
+    component: About
   },
   {
     path: '/event/:id',
