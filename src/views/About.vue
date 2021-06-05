@@ -17,7 +17,7 @@ window.AcquiaLift = {
   ** Content values need to be the same as what's Lift Profile Manager, Admin > Customer Sites > Customer Details
   ** The following values are examples. Update all variables for your own installation of Acquia Lift
   */
-  account_id: "ABINBEV",
+  account_id: "HEADLESSBC",
   liftAssetsURL: "https://builder.lift.acquia.com",
   liftDecisionAPIURL: "https://us-east-1-demo-decisionapi.lift.acquia.com",
   authEndpoint: "https://us-east-1-demo-oauth2.lift.acquia.com/authorize",
