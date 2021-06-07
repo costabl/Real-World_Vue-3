@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link :to="{ name: 'About' }"
-        >Headless Personalization</router-link
+      <router-link :to="{ name: 'Home' }">Personalization</router-link
       >
+      <router-link :to="{ name: 'EventList' }">Events</router-link>
     </div>
     <router-view />
   </div>
@@ -19,11 +19,12 @@
 }
 
 #nav {
-  padding: 30px;
+  padding: 60px;
 }
 
 #nav a {
   font-weight: bold;
+  padding: 30px;
   color: #2c3e50;
 }
 

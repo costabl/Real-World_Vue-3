@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="personalization">
     <p>
       This is a simple headless Vue 3 application that leverages Acquia
       Personalization scripts to power personalized content.
