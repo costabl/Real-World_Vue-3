@@ -48,7 +48,11 @@ window.AcquiaLift = {
     content_section: 'Home',
     content_keywords: 'Headless',
     persona: 'Student',
-    utm_name: 'headless'
+    utm_name: '',
+    utm_content: '',
+    utm_medium: '',
+    utm_referrer: '',
+    utm_terms: ''
 
     /* CUSTOM COLUMN META DATA | OPTIONAL | Content values can be different from page to page
      ** The itemprops need to be created from Lift Profile Manager
@@ -56,7 +60,6 @@ window.AcquiaLift = {
      ** Will always be the format below of {table}_udf{accessor_number} -->
      **/
     //person_udf4: 'Custom Value'
-
   }
 }
 
