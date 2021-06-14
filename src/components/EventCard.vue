@@ -2,6 +2,7 @@
   <router-link
     class="event-link"
     :to="{ name: 'EventDetails', params: { id: event.id } }"
+    :id="'event-' + event.id"
   >
     <div class="event-card">
       <span>@{{ event.time }} on {{ event.date }}</span>
